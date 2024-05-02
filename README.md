@@ -6,10 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,34 +18,116 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+- Configure Departments
+- Configure Teams
+- Configure Agents
+- Configure Users
+- Configure SLA
+- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
+<h3>Role Creation</h3>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="TS-Role Creation.PNG" height="80%" width="80%" alt="Agent Creation 1"/>
+<h3></h3>
+<img src="TS-Role Creation 2.PNG" height="80%" width="80%" alt="Agent Creation 2"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Navigate - Admin Panel->Agents->Roles. Create a role of your choosing. Ex: Supreme Admin.
 </p>
 <br />
 
+<h3>Department Creation</h3>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="TS-Department Creation.PNG" height="80%" width="80%" alt="Department Creation 1"/>
+  <h3></h3>
+<img src="TS-Department Creation 2.PNG" height="80%" width="80%" alt="Department Creation 2"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Navigate Admin Panel-> Agents -> Departments. Create your department of choosing. Ex: System Administrators.
 </p>
 <br />
 
+<h3>Team Creation</h3>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="TS-Team Creation 1.PNG" height="80%" width="80%" alt="Team Creation 1"/>
+  <h3></h3>
+<img src="TS-Team Creation 2.PNG" height="80%" width="80%" alt="Team Creation 2"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Navigate - Admin Panel -> Agents -> Teams. Team Examples: Level I Support , Level II Support.
+</p>
+<br />
+
+<h3>Ticket Permissions</h3>
+
+<p>
+<img src="TS-Ticket Permission 1.PNG" height="80%" width="80%" alt="Ticket Permission 1"/>
+  <h3></h3>
+<img src="TS-Ticket Permission 2.PNG" height="80%" width="80%" alt="Ticket Permission 2"/>
+</p>
+<p>
+Navigate - Admin Panel -> Settings -> User Settings.
+</p>
+<br />
+
+<h3>Agent Creation</h3>
+
+<p>
+<img src="TS-Agent Creation 1.PNG" height="80%" width="80%" alt="Agent Creation 1"/>
+  <h3></h3>
+<img src="TS-Agent Creation 2.PNG" height="80%" width="80%" alt="Agent Creation 2"/>
+</p>
+<p>
+Navigate - Admin Panel -> Agents -> Add New. Agent Examples: Barry, Jodie. 
+</p>
+<br />
+
+<h3>User Creation</h3>
+
+<p>
+<img src="TS-User Creation1.PNG" height="80%" width="80%" alt="User Creation 1"/>
+  <h3></h3>
+<img src="TS-User Creation 2.PNG" height="80%" width="80%" alt="User Creation 2"/>
+</p>
+<p>
+Navigate - Agent Panel -> Users -> Add New. User Examples: John, Karen.
+</p>
+<br />
+
+<h3>SLA Creation</h3>
+
+<p>
+<img src="TS-SLA Creation 1.PNG" height="80%" width="80%" alt="SLA Creation 1"/>
+  <h3></h3>
+<img src="TS-SLA Creation 2.PNG" height="80%" width="80%" alt="SLA Creation 2"/>
+</p>
+<p>
+Navigate - Admin Panel -> Manage -> SLA. SLA Examples: 
+  <ul>
+    <li>i. Sev-A (1 Hour, 24/7)</li>
+    <li>ii. Sev B (4 Hours, 24/7)</li>
+    <li>iii. Sev-C (8 Hours, Business Hours)</li>
+  </ul>
+</p>
+<br />
+
+<h3>Help Topic Creation</h3>
+
+<p>
+<img src="TS-Help Topic Creation.PNG" height="80%" width="80%" alt="Help Topic Creation"/>
+</p>
+<p>
+Navigate - Admin Panel -> Manage -> Help Topics. Help Topic Examples: 
+  <ul>
+    <li>i. Business Critical Outage</li>
+    <li>ii.Personal Computer Issues</li>
+    <li>iii. Password Reset</li>
+  </ul>
 </p>
 <br />
